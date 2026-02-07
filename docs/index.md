@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sofa King Sales
+title: Sofa King Furniture
 ---
 
 <!-- About Section -->
