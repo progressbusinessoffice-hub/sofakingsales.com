@@ -1,20 +1,27 @@
 ---
 layout: default
+title: Sofa King Sales
 ---
 
-# Sofa King Furniture
+## About Us
 
-Furniture deals that are sofa king amazing you can't resist.
-
-📞 **Call us now:**  
-[Call Now](tel:+19792508196)
-
----
+Welcome to **Sofa King Sales**! We offer high-quality furniture at prices you can’t resist. Our mission is simple: provide **quality, honesty, and exceptional service**. Whether you're looking for a sofa, chair, or table, we’ve got you covered.
 
 ## Featured Furniture
 
-<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
-  <img src="sofa1.jpg" style="width: 300px; border-radius: 8px;" />
-  <img src="chair1.jpg" style="width: 300px; border-radius: 8px;" />
-  <img src="table1.jpg" style="width: 300px; border-radius: 8px;" />
+<div class="gallery">
+  <img src="assets/sofa1.jpg" alt="Modern Sofa">
+  <img src="assets/chair1.jpg" alt="Comfortable Chair">
+  <img src="assets/table1.jpg" alt="Stylish Table">
 </div>
+
+## Why Choose Us
+
+- **Affordable Prices:** Get the best furniture without breaking the bank.  
+- **Quality Materials:** Durable furniture that lasts for years.  
+- **Customer Service:** We care about your satisfaction.
+
+## Contact Us
+
+📞 **Call us now:**  
+[Call Now](tel:+1XXXXXXXXXX)
