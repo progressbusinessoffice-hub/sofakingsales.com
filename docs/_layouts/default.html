@@ -3,12 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title | default: "Sofa King Furniture" }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: sans-serif; margin: 2rem; }
-    img { max-width: 100%; border-radius: 8px; margin: 0.5rem; }
+    /* General styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    /* Hero banner */
+    header {
+      background-color: #FF5733;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    /* Call button styling */
+    .call-button {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #FF5733;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      margin: 20px 0;
+    }
+
+    .call-button:hover {
+      background-color: #e04e2a;
+    }
+
+    /* Main content styling */
+    .content {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    /* Section spacing */
+    section {
+      margin-bottom: 40px;
+    }
+
+    /* Gallery styling */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 300px;
+      border-radius: 8px;
+    }
   </style>
 </head>
 <body>
-  {{ content }}
+
+  <!-- Hero banner -->
+  <header>
+    <h1>{{ page.title | default: "Sofa King Furniture" }}</h1>
+    <p>Quality furniture. Honest pricing. No nonsense.</p>
+    <a class="call-button" href="tel:+19792508196">Call Now</a>
+  </header>
+
+  <!-- Main content from index.md -->
+  <div class="content">
+    {{ content }}
+  </div>
+
 </body>
 </html>
