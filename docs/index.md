@@ -3,25 +3,30 @@ layout: default
 title: Sofa King Sales
 ---
 
+<!-- About Section -->
+<section id="about">
 ## About Us
 
-Welcome to **Sofa King Furniture**! Furniture deals that are sofa king amazing you can't resist! Our mission is simple: provide **quality, honesty, and exceptional service**. Whether you're looking for a sofa, chair, or table, we’ve got you covered.
+Welcome to **Sofa King Furniture**! Furniture deals that are sofa king amazing you can't resist! FREE Same Day DELIVERY. $0 DOWN 0% INTEREST. Our mission is simple: provide **quality, honesty, and exceptional service**. 
+</section>
 
+<!-- Featured Products Gallery -->
+<section id="products">
 ## Featured Furniture
 
 <div class="gallery">
-  <img src="assets/sofa1.jpg" alt="Modern Sofa">
-  <img src="assets/chair1.jpg" alt="Comfortable Chair">
-  <img src="assets/table1.jpg" alt="Stylish Table">
-</div>
+  <!-- Product Card 1 -->
+  <div class="product-card">
+    <img src="assets/sofa1.jpg" alt="Leather Sofa">
+    <div class="product-info">
+      <h3>Modern Sofa</h3>
+      <p>$1200.00</p>
+      <a class="buy-button" href="#">Buy Now</a>
+    </div>
+  </div>
 
-## Why Choose Us
-
-- **Competitive Prices:** Get the best furniture without breaking the bank.  
-- **Quality Materials:** Durable furniture that lasts for years.  
-- **Customer Service:** We care about your satisfaction.
-
-## Contact Us
-
-📞 **Call us now:**  
-[Call Now](tel:+19792508196)
+  <!-- Product Card 2 -->
+  <div class="product-card">
+    <img src="assets/chair1.jpg" alt="Reclining Chair">
+    <div class="product-info">
+      <h3>Comfortable Chair</h3>
