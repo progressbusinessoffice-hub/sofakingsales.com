@@ -5,7 +5,7 @@ title: Sofa King Sales
 
 ## About Us
 
-Welcome to **Sofa King Sales**! We offer high-quality furniture at prices you can’t resist. Our mission is simple: provide **quality, honesty, and exceptional service**. Whether you're looking for a sofa, chair, or table, we’ve got you covered.
+Welcome to **Sofa King Furniture**! Furniture deals that are sofa king amazing you can't resist! Our mission is simple: provide **quality, honesty, and exceptional service**. Whether you're looking for a sofa, chair, or table, we’ve got you covered.
 
 ## Featured Furniture
 
@@ -17,11 +17,11 @@ Welcome to **Sofa King Sales**! We offer high-quality furniture at prices you ca
 
 ## Why Choose Us
 
-- **Affordable Prices:** Get the best furniture without breaking the bank.  
+- **Competitive Prices:** Get the best furniture without breaking the bank.  
 - **Quality Materials:** Durable furniture that lasts for years.  
 - **Customer Service:** We care about your satisfaction.
 
 ## Contact Us
 
 📞 **Call us now:**  
-[Call Now](tel:+1XXXXXXXXXX)
+[Call Now](tel:+19792508196)
