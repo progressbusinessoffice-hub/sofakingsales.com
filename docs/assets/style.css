@@ -92,9 +92,14 @@ body {
   gap: 10px;
   margin: 10px 0 15px;
   overflow-x: auto;
+  overflow-y: hidden;
   padding-bottom: 5px;
   scroll-snap-type: x mandatory;
+
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x;
 }
+
 
 .product-gallery img {
   width: 120px;
