@@ -86,6 +86,34 @@ body {
   margin-bottom: 10px;
 }
 
+/* 🔥 PRODUCT IMAGE SCROLL GALLERY (NEW) */
+.product-gallery {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 15px;
+  overflow-x: auto;
+  padding-bottom: 5px;
+  scroll-snap-type: x mandatory;
+}
+
+.product-gallery img {
+  width: 120px;
+  height: auto;
+  border-radius: 6px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+/* Optional scrollbar styling */
+.product-gallery::-webkit-scrollbar {
+  height: 6px;
+}
+
+.product-gallery::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
 /* ABOUT */
 .about-text {
   max-width: 700px;
