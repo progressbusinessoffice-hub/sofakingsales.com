@@ -231,8 +231,8 @@ Sofa King Furniture offers what no one else dares! FREE DELIVERY. 0% In-House Fi
 			</div>
 			<form method="POST" id="zcampaignOptinForm" action="https://zgnp-zngp.maillist-manage.com/weboptin.zc" target="_zcSignup" onsubmit="zcScptlessSubmit(this)">
 				
-				<div>Please input your email below.</div>
-					<div>
+		<div>Please input your email below.</div>
+					
 						<input type="text" placeholder="Email Address" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL">
 					</div>
 					<div>
