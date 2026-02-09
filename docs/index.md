@@ -200,7 +200,8 @@ Sofa King Furniture offers what no one else dares! FREE DELIVERY. 0% In-House Fi
   </section>
 
   <!-- NEWSLETTER -->
-  <section class="section newsletter">
+  <section class="section newsletter" style="background:#000; color:white; padding:60px 20px; text-align:center;">
+
     <h2>Get 5% Off Your First Purchase</h2>
     <p>Join our email list and receive a discount code instantly.</p>
 
@@ -281,7 +282,7 @@ Sofa King Furniture offers what no one else dares! FREE DELIVERY. 0% In-House Fi
 
 <!-- FOOTER -->
 <footer>
-  <p>© 2026 Sofa King Sales. All rights reserved.</p>
+  <p>© 2026 Sofa King Furniture. All rights reserved.</p>
   <p>
     Follow us: 
     <a href="https://www.instagram.com/sofa_king_furniture_1/" target="_blank">Instagram</a> | 
