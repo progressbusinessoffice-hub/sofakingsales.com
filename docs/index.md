@@ -169,8 +169,8 @@ title: Sofa King Sales
   <!-- HERO -->
   <header class="hero">
     <img src="assets/hero.jpg" alt="Sofa King Sales Logo" class="logo" />
-    <h1>Premium Furniture Without the Premium Price</h1>
-    <p>High-quality sofas delivered fast. No showroom markups.</p>
+    <h1>Furniture that is Sofa King Amazing!</h1>
+    <p>Quality that Lasts, Built for Your Needs.</p>
     <a href="tel:15555555555" class="cta-button">📞 Call Now</a>
   </header>
 
@@ -180,24 +180,22 @@ title: Sofa King Sales
     <div class="product-grid">
       <div class="product-card">
         <img src="assets/sofa1.jpg" alt="Modern Sofa">
-        <h3>Modern Comfort Sofa</h3>
-        <p>Clean design, deep cushions, built to last.</p>
+        <h3>Reclining Couch</h3>
+        <p>Electric Functionality. Adjustable to your needs. $800 with FREE DELIVERY! Financing Available!</p>
       </div>
       <div class="product-card">
         <img src="assets/sofa2.jpg" alt="Luxury Sofa">
-        <h3>Luxury Lounge Sofa</h3>
-        <p>Elegant style with unmatched comfort.</p>
+        <h3>Leather Sofa Set</h3>
+        <p>Luxury Feel. Unbeatable Comfort. $1200 with FREE DELIVERY! Financing Available!</p>
       </div>
     </div>
   </section>
 
   <!-- ABOUT -->
   <section class="section light">
-    <h2>About Sofa King Sales</h2>
+    <h2>About Sofa King Furniture</h2>
     <p class="about-text">
-      Sofa King Sales was built on one simple idea: furniture should be high
-      quality, fairly priced, and easy to buy. We cut out unnecessary
-      middlemen, focus on craftsmanship, and pass the savings directly to you.
+Sofa King Furniture offers what no one else dares! FREE DELIVERY. 0% In-House Financing. $0 Down.
     </p>
   </section>
 
