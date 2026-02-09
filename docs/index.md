@@ -1,37 +1,135 @@
-<div class="hero"></div>
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sofa King Furniture | Our Furniture is Sofa King Amazing!</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
 
-<div style="text-align:center; margin-top: 20px;">
-  <a href="tel:9792508196"
-     style="
-       display: inline-block;
-       background: #c40000;
-       color: white;
-       padding: 14px 28px;
-       font-size: 20px;
-       font-weight: bold;
-       border-radius: 6px;
-       text-decoration: none;
-     ">
-    Call Now: (979) 250-8196
-  </a>
-</div>
+  <!-- HERO -->
+  <header class="hero">
+    <img src="assets/hero.jpg" alt="Sofa King Sales Logo" class="logo" />
+    <h1>Premium Furniture Without the Premium Price</h1>
+    <p>Free Delivery and 0% Financing Available!</p>
+    <a href="tel:19792508196" class="cta-button">📞 Call Now</a>
+  </header>
 
-<div class="container">
-  <h2>Featured Furniture</h2>
-
-  <div class="products">
-
-    <div class="product">
-      <img src="/assets/sofa1.jpg" alt="Modern Sofa">
-      <h3>Modern Sofa</h3>
-      <p>Clean lines, deep comfort, and durable construction for everyday living.</p>
+  <!-- PRODUCTS -->
+  <section class="section">
+    <h2>Featured Sofas</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="assets/sofa1.jpg" alt="Modern Sofa">
+        <h3>Leather Reclining Set</h3>
+        <p>Outstanding quality, unmatched comfort.</p>
+      </div>
+      <div class="product-card">
+        <img src="assets/sofa2.jpg" alt="Luxury Sofa">
+        <h3>Luxury Reclining Couch</h3>
+        <p>Electric Functionality.</p>
+      </div>
     </div>
+  </section>
 
-    <div class="product">
-      <img src="/assets/sofa2.jpg" alt="Sectional Sofa">
-      <h3>Sectional Sofa</h3>
-      <p>Spacious seating designed for family rooms and entertaining guests.</p>
-    </div>
+  <!-- ABOUT -->
+  <section class="section light">
+    <h2>About Sofa King Furniture</h2>
+    <p class="about-text">
+      Sofa King Sales was built on one simple idea: furniture should be high
+      quality, fairly priced, and easy to buy. We cut out unnecessary
+      middlemen, focus on craftsmanship, and pass the savings directly to you.
+    </p>
+  </section>
 
-  </div>
+  <!-- NEWSLETTER -->
+  <section class="section newsletter">
+    <h2>Get 5% Off Your First Purchase</h2>
+    <p>Join our email list and receive a discount code instantly.</p>
+
+    <!-- Zoho Campaigns Web-Optin Form Starts Here -->
+<div id="customForm">
+	<div name="SIGNUP_BODY" changeitem="BG_IMAGE">
+		<div changeitem="ELEGANTFORM_IMAGE">
+			<img>
+		</div>
+		<div>
+			<div style="position:relative;">
+				<div id="Zc_SignupSuccess" style="display:none;position:absolute;margin-left:4%;width:90%;background-color: white; padding: 3px; border: 3px solid rgb(194, 225, 154);  margin-top: 10px;margin-bottom:10px;word-break:break-all ">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tbody>
+							<tr>
+								<td width="10%">
+									<img class="successicon" src="https://zgnp-zngp.maillist-manage.com/images/challangeiconenable.jpg" align="absmiddle">
+								</td>
+								<td>
+									<span id="signupSuccessMsg" style="color: rgb(73, 140, 132); font-family: sans-serif; font-size: 14px;word-break:break-word">&nbsp;&nbsp;Thank you for Signing Up</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<form method="POST" id="zcampaignOptinForm" action="https://zgnp-zngp.maillist-manage.com/weboptin.zc" target="_zcSignup" onsubmit="zcScptlessSubmit(this)">
+				<div id="errorMsgDiv">Please correct the marked field(s) below.</div>
+				<div>
+					<div>Claim 5% Off of Your First Purchase!</div>
+					<div>Our Deals are Sofa King Amazing.</div>
+					<div>
+						<input type="text" placeholder="Email Address" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL">
+					</div>
+					<div>
+						<input type="submit" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="SIGN UP">
+					</div>
+				</div>
+				<input type="hidden" id="fieldBorder" value="">
+				<input type="hidden" id="submitType" name="submitType" value="optinCustomView">
+				<input type="hidden" id="emailReportId" name="emailReportId" value="">
+				<input type="hidden" id="formType" name="formType" value="QuickForm">
+				<input type="hidden" name="zx" id="cmpZuid" value="13679d3a8">
+				<input type="hidden" name="zcvers" value="3.0">
+				<input type="hidden" name="oldListIds" id="allCheckedListIds" value="">
+				<input type="hidden" id="mode" name="mode" value="OptinCreateView">
+				<input type="hidden" id="zcld" name="zcld" value="1164a208b5a63fd3f">
+				<input type="hidden" id="zctd" name="zctd" value="1164a208b5a63fb91">
+				<input type="hidden" id="document_domain" value="">
+				<input type="hidden" id="zc_Url" value="zgnp-zngp.maillist-manage.com">
+				<input type="hidden" id="new_optin_response_in" value="0">
+				<input type="hidden" id="duplicate_optin_response_in" value="0">
+				<input type="hidden" name="zc_trackCode" id="zc_trackCode" value="ZCFORMVIEW">
+				<input type="hidden" id="zc_formIx" name="zc_formIx" value="3zb115fb68cdee52ca5719a29b55bf836898cbd5c5b43fd6f1391fe6f0253ef9f4">
+				<input type="hidden" id="viewFrom" value="URL_ACTION">
+				<input type="hidden" id="scriptless" name="scriptless" value="yes">
+				<input type="hidden" id="zc_spmSubmit" name="zc_spmSubmit" value="ZCSPMSUBMIT">
+			</form>
+		</div>
+	</div>
 </div>
+<div id="zcOptinOverLay" oncontextmenu="return false" style="display:none;text-align: center; background-color: rgb(0, 0, 0); opacity: 0.5; z-index: 100; position: fixed; width: 100%; top: 0px; left: 0px; height: 988px;"></div>
+<div id="zcOptinSuccessPopup" style="display:none;z-index: 9999;width: 800px; height: 40%;top: 84px;position: fixed; left: 26%;background-color: #FFFFFF;border-color: #E6E6E6; border-style: solid; border-width: 1px;  box-shadow: 0 1px 10px #424242;padding: 35px;">
+  <span style="position: absolute;top: -16px;right:-14px;z-index:99999;cursor: pointer;" id="closeSuccess">
+    <img src="https://zgnp-zngp.maillist-manage.com/images/videoclose.png">
+  </span>
+  <div id="zcOptinSuccessPanel"></div>
+</div>
+<script>
+  function zcScptlessSubmit(parentNode){
+    if(parentNode.querySelector("#zc_spmSubmit")){parentNode.querySelector("#zc_spmSubmit").remove();}parentNode.submit();
+  }
+</script>
+<!-- Zoho Campaigns Web-Optin Form Ends Here -->
+
+    <small>*Discount code sent via email.</small>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Sofa King Furniture. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
