@@ -171,7 +171,7 @@ title: Sofa King Sales
     <img src="assets/hero.jpg" alt="Sofa King Sales Logo" class="logo" />
     <h1>Furniture that is Sofa King Amazing!</h1>
     <p>Quality that Lasts, Built for Your Needs.</p>
-    <a href="tel:15555555555" class="cta-button">📞 Call Now</a>
+    <a href="tel:19792508196" class="cta-button">📞 Call Now</a>
   </header>
 
   <!-- PRODUCTS -->
@@ -230,10 +230,7 @@ Sofa King Furniture offers what no one else dares! FREE DELIVERY. 0% In-House Fi
 				</div>
 			</div>
 			<form method="POST" id="zcampaignOptinForm" action="https://zgnp-zngp.maillist-manage.com/weboptin.zc" target="_zcSignup" onsubmit="zcScptlessSubmit(this)">
-				<div id="errorMsgDiv">Please correct the marked field(s) below.</div>
-				<div>
-					<div>Claim 5% Off of Your First Purchase!</div>
-					<div>Our Deals are Sofa King Amazing.</div>
+				<div id="errorMsgDiv">Please input your email below.</div>
 					<div>
 						<input type="text" placeholder="Email Address" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL">
 					</div>
