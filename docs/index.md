@@ -1,13 +1,168 @@
 ---
 layout: none
+title: Sofa King Furniture
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sofa King Furniture | Our Furniture is Sofa King Amazing!</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <title>Sofa King Furniture | Our Furniture is Sofa King Amazing</title>
+  <link rel="stylesheet" href="assets/style.css?v=3">
+
+  <style>
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #f9f9f9;
+    }
+    .hero img.logo {
+      max-width: 180px;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin: 10px 0;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      background-color: #4a9084;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #3a6b60;
+    }
+
+    /* PRODUCTS */
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      max-width: 300px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    /* ABOUT */
+    .section.light {
+      background-color: #f9f9f9;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .about-text {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1.1em;
+      line-height: 1.6em;
+    }
+
+    /* NEWSLETTER */
+    .newsletter {
+      padding: 60px 20px;
+      text-align: center;
+      background: #e8f3ef;
+    }
+    .newsletter h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .newsletter p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+    /* Center Zoho form container */
+    #customForm {
+      display: inline-block;
+      text-align: left;
+      max-width: 400px;
+      width: 100%;
+      background-color: rgba(74,144,132,0.1); /* subtle overlay */
+      padding: 20px;
+      border-radius: 10px;
+    }
+    #customForm input[type="text"], #customForm input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    #customForm input[type="submit"] {
+      background-color: #4a9084;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      width: 100%;
+      transition: background 0.3s;
+    }
+    #customForm input[type="submit"]:hover {
+      background-color: #3a6b60;
+    }
+    .newsletter small {
+      display: block;
+      margin-top: 10px;
+      font-size: 0.9em;
+      color: #555;
+      text-align: center;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+      margin: 0 5px;
+    }
+
+    /* Responsive */
+    @media(max-width:768px){
+      .product-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+      .hero h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -15,7 +170,7 @@ layout: none
   <header class="hero">
     <img src="assets/hero.jpg" alt="Sofa King Sales Logo" class="logo" />
     <h1>Premium Furniture Without the Premium Price</h1>
-    <p>Free Delivery and 0% Financing Available!</p>
+    <p>High-quality sofas delivered fast. No showroom markups.</p>
     <a href="tel:19792508196" class="cta-button">📞 Call Now</a>
   </header>
 
@@ -25,24 +180,22 @@ layout: none
     <div class="product-grid">
       <div class="product-card">
         <img src="assets/sofa1.jpg" alt="Modern Sofa">
-        <h3>Leather Reclining Set</h3>
-        <p>Outstanding quality, unmatched comfort.</p>
+        <h3>Reclining Couch</h3>
+        <p>Electric Functionality. Adjustable to your needs.</p>
       </div>
       <div class="product-card">
         <img src="assets/sofa2.jpg" alt="Luxury Sofa">
-        <h3>Luxury Reclining Couch</h3>
-        <p>Electric Functionality.</p>
+        <h3>Leather Sofa Set</h3>
+        <p>Luxury Feel. Unbeatable Comfort.</p>
       </div>
     </div>
   </section>
 
   <!-- ABOUT -->
   <section class="section light">
-    <h2>About Sofa King Furniture</h2>
+    <h2>About Sofa King Sales</h2>
     <p class="about-text">
-      Sofa King Sales was built on one simple idea: furniture should be high
-      quality, fairly priced, and easy to buy. We cut out unnecessary
-      middlemen, focus on craftsmanship, and pass the savings directly to you.
+      Sofa King Furniture offers what no one else dares! FREE DELIVERY. 0% In-House Financing. $0 Down.
     </p>
   </section>
 
@@ -123,12 +276,17 @@ layout: none
 </script>
 <!-- Zoho Campaigns Web-Optin Form Ends Here -->
 
-    <small>*Discount code sent via email.</small>
+  <small>*Discount code sent via email.</small>
 </section>
 
 <!-- FOOTER -->
 <footer>
   <p>© 2026 Sofa King Furniture. All rights reserved.</p>
+  <p>
+    Follow us: 
+    <a href="https://www.instagram.com/sofa_king_furniture_1/" target="_blank">Instagram</a> | 
+    <a href="https://www.facebook.com/profile.php?id=61586413496805" target="_blank">Facebook</a>
+  </p>
 </footer>
 
 </body>
