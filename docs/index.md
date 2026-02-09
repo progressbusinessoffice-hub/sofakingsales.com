@@ -206,7 +206,8 @@ Sofa King Furniture offers what no one else dares! FREE DELIVERY. 0% In-House Fi
     <p>Join our email list and receive a discount code instantly.</p>
 
     <!-- Zoho Campaigns Web-Optin Form Starts Here -->
-<div id="customForm">
+<div id="customForm" style="display:inline-block; text-align:left; max-width:400px; width:100%; background-color:rgba(255,255,255,0.1); padding:20px; border-radius:10px;">
+
 	<div name="SIGNUP_BODY" changeitem="BG_IMAGE">
 		<div changeitem="ELEGANTFORM_IMAGE">
 			<img>
