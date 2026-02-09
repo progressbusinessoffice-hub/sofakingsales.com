@@ -3,24 +3,11 @@ layout: none
 title: Sofa King Furniture
 ---
 
-<style>
-  /* Mobile-friendly hero title and padding */
-  @media (max-width: 768px) {
-    .hero h1 {
-      font-size: 1.8em !important; /* scales hero title for mobile */
-      line-height: 1.2em;
-    }
-    .hero {
-      padding: 40px 15px !important; /* reduce top/bottom padding for mobile */
-    }
-  }
-</style>
-
 <!-- HERO -->
 <header class="hero" style="text-align:center; padding:60px 20px; background:#f9f9f9;">
   <img src="assets/hero.jpg" alt="Sofa King Sales Logo" class="logo" style="max-width:180px; margin-bottom:20px;" />
-  <h1 style="margin:10px 0;">Furniture Deals that are <br> Sofa King Amazing</h1>
-  <p style="font-size:1.2em; margin-bottom:20px;">Tailored to Your Needs, and Built for You.</p>
+  <h1 style="font-size:2.5em; margin:10px 0;">Premium Furniture Without the Premium Price</h1>
+  <p style="font-size:1.2em; margin-bottom:20px;">High-quality sofas delivered fast. No showroom markups.</p>
   <a href="tel:19792508196" class="cta-button" style="display:inline-block; padding:15px 30px; font-size:1.2em; background-color:#000; color:white; text-decoration:none; border-radius:8px; transition:background 0.3s;">📞 Call Now</a>
 </header>
 
@@ -31,19 +18,19 @@ title: Sofa King Furniture
     <div class="product-card" style="background:#fff; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); padding:20px; text-align:center; max-width:300px;">
       <img src="assets/sofa1.jpg" alt="Modern Sofa" style="max-width:100%; border-radius:8px; margin-bottom:10px;">
       <h3>Reclining Couch</h3>
-      <p>Electric Functionality. Adjustable to your needs.$800 with FREE DELIVERY and Financing Available!</p>
+      <p>Electric Functionality. Adjustable to your needs.</p>
     </div>
     <div class="product-card" style="background:#fff; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); padding:20px; text-align:center; max-width:300px;">
       <img src="assets/sofa2.jpg" alt="Luxury Sofa" style="max-width:100%; border-radius:8px; margin-bottom:10px;">
       <h3>Leather Sofa Set</h3>
-      <p>Luxury Feel. Unbeatable Comfort. Coffee table included. $1200 with FREE DELIVERY and Financing Available!</p>
+      <p>Luxury Feel. Unbeatable Comfort.</p>
     </div>
   </div>
 </section>
 
 <!-- ABOUT -->
 <section class="section light" style="background-color:#f9f9f9; padding:60px 20px; text-align:center;">
-  <h2>About Sofa King Furniture</h2>
+  <h2>About Sofa King Sales</h2>
   <p class="about-text" style="max-width:800px; margin:0 auto; font-size:1.1em; line-height:1.6em;">
     Sofa King Furniture offers what no one else dares! FREE DELIVERY. 0% In-House Financing. $0 Down.
   </p>
