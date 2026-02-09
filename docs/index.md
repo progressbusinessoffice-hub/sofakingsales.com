@@ -3,10 +3,23 @@ layout: none
 title: Sofa King Furniture
 ---
 
+<style>
+  /* Mobile-friendly hero title and padding */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 1.8em !important; /* scales hero title for mobile */
+      line-height: 1.2em;
+    }
+    .hero {
+      padding: 40px 15px !important; /* reduce top/bottom padding for mobile */
+    }
+  }
+</style>
+
 <!-- HERO -->
 <header class="hero" style="text-align:center; padding:60px 20px; background:#f9f9f9;">
   <img src="assets/hero.jpg" alt="Sofa King Sales Logo" class="logo" style="max-width:180px; margin-bottom:20px;" />
-  <h1 style="font-size:2.5em; margin:10px 0;">Furniture Deals that are <br> Sofa King Amazing</h1>
+  <h1 style="margin:10px 0;">Furniture Deals that are <br> Sofa King Amazing</h1>
   <p style="font-size:1.2em; margin-bottom:20px;">Tailored to Your Needs, and Built for You.</p>
   <a href="tel:19792508196" class="cta-button" style="display:inline-block; padding:15px 30px; font-size:1.2em; background-color:#000; color:white; text-decoration:none; border-radius:8px; transition:background 0.3s;">📞 Call Now</a>
 </header>
