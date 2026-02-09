@@ -1,6 +1,0 @@
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-remote-theme
-
-title: Sofa King Sales
-description: Furniture deals that are sofa king amazing you can't resist.
